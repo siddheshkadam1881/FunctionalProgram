@@ -1,0 +1,41 @@
+<html>
+<head>
+  <style>
+    td {
+      width: 50px;
+      height: 50px;
+      border: solid 1px black;
+      text-align: center;
+      font-size: 20pt;
+    }
+    td:hover {
+      background-color: #dbdbdb;
+      cursor: pointer;
+    }
+  </style>
+  <script src="tictacgame.js">
+  </script>
+</head>
+<body>
+  <div style="text-align:center;margin:0 auto;width:50%;padding-top:20px;">
+    <br/>
+    <div style="float:left;">
+      Player 1
+
+      <div style="font-size:30pt;" id="player1">
+        0
+      </div>
+    </div>
+
+    <table id="game" style="float:left;margin-left:20px;">
+    </table>
+
+    <div style="float:left;margin-left:20px;">
+      Player 2
+      <div id="computer" style="font-size:30pt;">0</div>
+    </div>
+
+    <div class="clear"></div>
+  </div>
+</body>
+</html>
